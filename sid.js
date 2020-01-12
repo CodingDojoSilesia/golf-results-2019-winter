@@ -1,0 +1,1 @@
+for(c of process.argv[w='',2].replace(/(\d[\d.,]*)/g,'_$1&').replace(/&(\s|$)/g,'$1'))for(i in Z=`vv>^^>`)w+=('DACaqQcsSbrEGeuUgwWfvMOzm}]IiYKyljon|XBr@'.charCodeAt(+c||'.abcdefghijklmnopqrstuvwxyząćęłńóśżź_&,0'.search(c))&1<<i?'*':'')+Z[i];console.log(w)
