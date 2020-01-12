@@ -1,0 +1,1 @@
+r='replace';console.log(process.argv[2][r](/\d[,-9]*/g,'N$&L')[r](/L(?= |$)/g,'')[r](/./g,x=>'152340'[r](/./g,n=>(' -ac.-km--ąć-óux--ed--onL-ęń-Nzy,ibf-slp-śł--źvż-jhg-trq-w'.search('jabcdefghi'[x]||x)>>n&1?'*':'')+'>v>^^v'[n])))
