@@ -1,0 +1,2 @@
+puts ARGV[0].gsub(/\d[,-9]*/,'N\0L').gsub(/L(?= |$)/,'').tr('0-9','ja-i').gsub(/./){|x|'231450'.gsub(/./){|n|n=n.to_i
+'*'*(' -.-ackm,i-sbflp---óąćux-ś-źł-vż----edon-j-thgrqL--Nęńzy-w'.index(x)>>n&1)+'>v^'[n/2]}}
