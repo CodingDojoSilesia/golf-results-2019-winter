@@ -7,7 +7,7 @@ ARGV[0]
   # only if the next character is a letter
 
   .chars.map{|c|
-  # Split string into separate charcters. As we injected all required special characters in the previous step we
+  # Split string into separate characters. As we injected all required special characters in the previous step we
   # now only need to translate each character into its Braille counterpart.
 
 
@@ -23,8 +23,8 @@ ARGV[0]
       #
       # To convert an input character to a position in the lookup table we use so called "perfect hashing" concept
       # https://en.wikipedia.org/wiki/Perfect_hash_function
-      # To find the order of charcters and values of constants for index calculation a separate script was used, which
-      # search for them using brute force method.
+      # To find the order of characters and values of constants for index calculation a separate script was used, which
+      # searched for them using brute force method.
       # Note that some space in the lookup table is not used, so it is quite possible to find even shorter table with
       # some other hashing function.
 
@@ -32,4 +32,3 @@ ARGV[0]
         # Move head to the next position
     }
   }
-  
